@@ -1,0 +1,18 @@
+// Limousine body path - sweeps profile along Z for body width
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+s 0.98 0.98
+p
+m 0.4
+s 0.96 0.96
+p
+m 0.4
+s 0.93 0.93
+p
+m 0.4
+s 0.88 0.88
+p

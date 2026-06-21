@@ -1,0 +1,30 @@
+// Helicopter fuselage extrusion path
+// No leading 'p' — front is open
+// Larger first 'm' makes the opening deeper
+// First two rings flare slightly outward, then taper toward the back
+m 0.35
+p
+m 0.35
+s 1.03 1.03
+p
+m 0.35
+s 0.99 0.99
+p
+m 0.35
+s 0.96 0.96
+p
+m 0.35
+s 0.92 0.92
+p
+m 0.35
+s 0.87 0.87
+p
+m 0.35
+s 0.80 0.80
+p
+m 0.35
+s 0.70 0.70
+p
+m 0.35
+s 0.58 0.58
+p

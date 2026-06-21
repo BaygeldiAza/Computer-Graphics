@@ -1,0 +1,27 @@
+// Helicopter tail boom path - extends along Z, tapers toward tail
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+s 0.92 0.92
+p
+m 0.4
+p
+m 0.4
+s 0.85 0.85
+p
+m 0.4
+p
+m 0.4
+s 0.75 0.75
+p
+m 0.4
+p
+m 0.4
+s 0.65 0.65
+p
+m 0.4
+s 0.55 0.55
+p

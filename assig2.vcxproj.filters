@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="basicsource">
+      <UniqueIdentifier>{fbba5123-3faa-4b50-a304-808f8a60cbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects-student">
+      <UniqueIdentifier>{a3f2dab0-23a3-4d6e-a800-760e1c22b4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects-standard">
+      <UniqueIdentifier>{56d0d618-a175-456d-b724-a524311485fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support">
+      <UniqueIdentifier>{ddaa07d9-fe12-4a03-94c6-5ebfea9299c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{053e891f-bca7-426d-9b62-67c4542bc8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{1d738d34-a0bf-433e-84d7-cf06a7311782}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basicsource\constants.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="basicsource\main.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="basicsource\prefix.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="basicsource\scene.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="basicsource\utility.h">
+      <Filter>basicsource</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\billboard.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\cube.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\cylinder.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\disc.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\particle.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\particlesys.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\plane.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\sphere.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\terrain.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\torus.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\tsphere.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="support\camera.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\face.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\fog.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\light.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\matrix.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\object3d.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\platform.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\skybox.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\snd.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\texture.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\vectr.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\vertex.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\viewfrustum.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\fragmentshader.h">
+      <Filter>shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\Noise3DTexture.h">
+      <Filter>shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\shaderprogram.h">
+      <Filter>shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\vertexshader.h">
+      <Filter>shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="support\SOIL.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="support\irrklang\irrKlang.h">
+      <Filter>support</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\composite1.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\forest.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\tcube.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\forest2.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\composite2.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\extrusion.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-standard\sweep.h">
+      <Filter>objects-standard</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\ttcube.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+    <ClInclude Include="objects-student\car.h">
+      <Filter>objects-student</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basicsource\main.cpp">
+      <Filter>basicsource</Filter>
+    </ClCompile>
+    <ClCompile Include="basicsource\prefix.cpp">
+      <Filter>basicsource</Filter>
+    </ClCompile>
+    <ClCompile Include="basicsource\scene.cpp">
+      <Filter>basicsource</Filter>
+    </ClCompile>
+    <ClCompile Include="basicsource\utility.cpp">
+      <Filter>basicsource</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\billboard.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\cube.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\cylinder.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\disc.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\particle.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\particlesys.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\plane.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\sphere.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\terrain.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\torus.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\tsphere.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="support\camera.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\face.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\fog.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\light.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\matrix.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\object3d.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\platform.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\skybox.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\snd.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\texture.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\vectr.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\vertex.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="support\viewfrustum.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\fragmentshader.cpp">
+      <Filter>shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\Noise3DTexture.cpp">
+      <Filter>shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\shaderprogram.cpp">
+      <Filter>shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\vertexshader.cpp">
+      <Filter>shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\composite1.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\forest.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\tcube.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\forest2.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\composite2.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\extrusion.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-standard\sweep.cpp">
+      <Filter>objects-standard</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\ttcube.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+    <ClCompile Include="objects-student\car.cpp">
+      <Filter>objects-student</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Car_Crash.ogg">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\Helicopter.ogg">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\headd.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\helipad.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\hospital.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\medic.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\sky22-1.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\sky22-2.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\sky22-3.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\sky22-4.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\sky22-5.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\sky22-6.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\street.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\terrain.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\tree.tga">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\heli_body_path.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\heli_body_profile.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\heli_body_profile2.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\heli_fwin_profile.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\heli_fwin_profile2.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\heli_rotor_hub_profile.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\heli_skid_path.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\heli_skid_profile.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\heli_tailboom_path.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\heli_tailboom_profile.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\lego_torso_path.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\lego_torso_profile.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\limo_body_path.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\limo_body_profile.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\limo_body_profile2.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\limo_wheel_profile.txt">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="resources\pole.txt">
+      <Filter>resources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

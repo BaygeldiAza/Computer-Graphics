@@ -1,0 +1,22 @@
+// Landing skid runner path - long horizontal tube
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+p
+m 0.4
+p

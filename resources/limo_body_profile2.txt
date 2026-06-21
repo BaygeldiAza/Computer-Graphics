@@ -1,0 +1,20 @@
+// Limousine body RIGHT side profile
+// X values negated from limo_body_profile.txt
+// Winding reversed to maintain clockwise for correct outward normals
+ 5.0 , 	0.0
+ 4.8 , 	0.4
+ 4.2 , 	0.8
+ 3.5 , 	1.0
+ 2.8 , 	1.1
+ 2.0 , 	1.1
+ 1.2 , 	1.25
+ 0.2 , 	1.45
+-0.8 , 	1.45
+-1.8 , 	1.35
+-2.8 , 	1.2
+-3.5 , 	1.2
+-4.2 , 	1.1
+-4.8 , 	0.8
+-5.0 , 	0.1
+-5.0 , 	0.0
+ 5.0 , 	0.0

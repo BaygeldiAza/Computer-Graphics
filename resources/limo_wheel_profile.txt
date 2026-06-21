@@ -1,0 +1,22 @@
+// Limousine wheel profile for sweep
+// Closed loop: starts at centre, traces tyre cross-section, returns to centre
+// Matches the same convention as heli_rotor_hub_profile.txt
+0.0  , 0.0
+0.35 , 0.02
+0.45 , 0.10
+0.50 , 0.20
+0.52 , 0.35
+0.50 , 0.48
+0.42 , 0.56
+0.30 , 0.60
+0.15 , 0.62
+0.0  , 0.62
+0.0  , 0.52
+0.12 , 0.52
+0.26 , 0.50
+0.36 , 0.44
+0.40 , 0.35
+0.38 , 0.22
+0.30 , 0.12
+0.18 , 0.04
+0.0  , 0.0
